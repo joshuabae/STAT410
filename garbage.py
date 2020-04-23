@@ -27,3 +27,6 @@ ax1.scatter(results_ridge, y_test, s=1000)
 ax2.scatter(results_lasso, y_test, s=1000)
 ax3.scatter(results_elastic, y_test, s=1000)
 ax4.scatter(results_linear, y_test, s=1000)
+
+
+# It seems because of the large difference in scales and units, standardizing is a better transformation for this data set.
